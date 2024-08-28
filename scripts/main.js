@@ -15,7 +15,7 @@ if (amIHappy === true && iKnowIt ===true) {
     console.log("im happy and i know it");
 }
 
-let age = 18;
+let age = 17;
 let isAlive = true;
 
 if (isAlive = true) {
@@ -45,3 +45,38 @@ if (hour < 12) {
 }
 
 console.log (action)
+
+
+for (let i = 0; i < 20; i++) {
+    console.log ("we loopin");
+}
+
+console.log ("done loopin")
+
+
+let dogs = ["gereman sheppard", "golden retriever", "poodle", "pug", "corgi", "shih tzu"];
+
+for (let i= 0; i < dogs.length; i++) {
+    console.log ("doggy: ", dogs[i]);
+}
+
+// let number = 1;
+
+// while (number < 9) {
+//     console.log ("let's dance");
+//     number++;
+// }
+
+
+let number = Math.random();
+let timesRun = 0;
+console.log (number);
+
+
+while (number < 0.9) {
+    number = Math.random();
+    console.log (number);
+    timesRun++;
+}
+
+console.log(timesRun)
